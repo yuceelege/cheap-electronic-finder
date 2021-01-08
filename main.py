@@ -86,7 +86,7 @@ for p in lst:
     links.append(link)
     name = p('a',{'class':'col col-12 productDescription'})[0].get('title')
     name += ' -Robotistan'
-    name.replace(","," ")
+    name = name.replace(","," ")
     price = p('div',{'class':'currentPrice'})[0].text
     p_name.append(name)
     try:
@@ -114,7 +114,7 @@ for p in lst2:
     links.append(link)
     name = p.find_all('a',{'class':'col col-12 productDescription'})[0].get('title')
     name += ' - Direnc'
-    name.replace(","," ")
+    name = name.replace(","," ")
     price = p('span',{'class':'currentPrice'})[0].text
     p_name.append(name)
     try:
