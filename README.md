@@ -1,5 +1,5 @@
 # cheap-electronic-finder (BETA)
-This program analyses some of the most common electronic component stores in Turkey and offers the most suitable products.
+This program analyses some of the most popular electronic component stores in Turkey and offers the most suitable products.
 
 ## Prerequisite Libraries
 -Tkinter <br/>
